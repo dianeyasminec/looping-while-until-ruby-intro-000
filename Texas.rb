@@ -8,16 +8,16 @@ class Student
   end
   def LastName=(Student_LastName)
     @Student_LastName=Student_LastName
-  end 
+  end
   def Student_LastName
     @Student_LastName
-  end 
+  end
   def Year_Of_Birth=(Student_Year_Of_Birth)
     @Student_Year_Of_Birth=Student_Year_Of_Birth
   end
   def Year_Of_Birth
     @Student_Year_Of_Birth
-  end 
+  end
   def Grade=(Student_Grade)
     @Student_Grade=Student_Grade
   end
@@ -26,10 +26,10 @@ class Student
   end
   def Course=(Student_Course)
     @Student_Course=Student_Course
-  end 
+  end
   def Course
     @Student_Course
-  end 
+  end
   #
   def initialize(Take_Test,Register_Class,Drop_Class)
     @Student_Take_Test=Take_Test
@@ -45,7 +45,5 @@ def Register_Class
 end
 def Drop_Class
   puts "You have dropped this class"
-end 
+end
 Take_Test
-
-
